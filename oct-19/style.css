@@ -1,0 +1,21 @@
+h3
+{
+    font-size: 30px;
+    color: rgb(0, 94, 255);
+    font-weight: 600;
+    background-color: rgb(140, 210, 240);
+}
+table , tr, td
+{
+    border: 2px solid;
+    border-collapse: collapse;
+    text-align: center;
+    
+    
+}
+
+
+
+.gray{
+    background-color: rgba(228, 224, 224);
+}
