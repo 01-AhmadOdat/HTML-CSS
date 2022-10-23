@@ -1,0 +1,14 @@
+.p-orange{
+    color: orange;
+}
+
+.bd{
+    font-weight: bold;
+}
+
+.fl{
+    background-image: url(/fl.jpg);
+    background-size: cover;
+    height: 500;
+}
+

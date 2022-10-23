@@ -5,17 +5,29 @@ h3
     font-weight: 600;
     background-color: rgb(140, 210, 240);
 }
-table , tr, td
+.table1
 {
     border: 2px solid;
     border-collapse: collapse;
-    text-align: center;
-    
-    
+    padding-left: 5px;
+      
 }
 
+.blue{
+    color: ;
+}
+.bold-num{
+    font-weight: bold;
+    
+    
+
+}
 
 
 .gray{
     background-color: rgba(228, 224, 224);
+}
+.table2
+{
+border: 0px;
 }
