@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+      @media screen and (min-width:0px) and (max-width:480px) {
+        #squares{
+        width: 97%;
+        height: 200px; 
+        
+     }
+    }  
+
+    @media screen and (min-width:481px) and (max-width:768px) {
+        #squares{
+            width:48%;
+             height: 200px;   
+ 
+     } 
+    }
+
+    @media screen and (min-width:769px) and (max-width:1279px) {
+        #squares{
+            width:32%;
+             height: 300px;   
+      
+     }  
+    }
+
+    @media screen and (min-width:1280px) and (max-width:10000px) {
+        #squares{
+            width:24%;
+             height: 300px;   
+             
+         
+     }  
+    }
+
+    div div{
+        height: auto;
+        width: 33%;
+        color: white;
+        font-size: 60px;
+        text-align: center;
+        display: inline-block; 
+        margin: 2px auto 2px auto;
+
+    }
+    .container{   
+        
+        border: 5px solid rgba(234, 143, 5, 0.865);
+        height: 97%;
+        width: 97%;
+        column-width: auto;
+       
+     
+    }
+
+    .green{
+        background-color: green;
+    
+    }
+    .yellow{
+        background-color: yellow;
+    
+    }
+    .purp{
+        background-color: purple;
+        }
+    .gray{
+        background-color: rgba(128, 128, 128, 0.696);
+
+    }
+    .blue{
+        background-color: blue;
+    }
+    .orange{
+        background-color: orange;
+    
+    }
+    .plum{
+        background-color: plum;
+     }
+    .red{
+        background-color: red;
+    }
+    .brown{
+        background-color: brown;
+    }
+
+</style>
+<body>
+    <div class="container">
+        <div id="squares" CLASS="green">1</div>
+        <div id="squares" CLASS="yellow">2</div>
+        <div id="squares" CLASS="purp">3</div>
+        <div id="squares" CLASS="gray">4</div>
+        <div id="squares" CLASS="blue">5</div>
+        <div id="squares" CLASS="orange">6</div>
+        <div id="squares" CLASS="plum">7</div>
+        <div id="squares" CLASS="red">8</div>
+        <div id="squares" CLASS="brown">9</div>
+
+    </div>
+    
+</body>
+</html>

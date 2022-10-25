@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    @media screen and (min-width:0px) and (max-width:480px) {
+        #divs{
+        width: auto;
+        height: 200px;    
+     }
+    }  
+
+    @media screen and (min-width:481px) and (max-width:768px) {
+        #divs{
+        width: 40%;
+        height: 300px;   
+        display: inline-block;
+        
+     } 
+    }
+
+    @media screen and (min-width:769px) and (max-width:1279px) {
+        #divs{
+            width:20%;
+             height: 300px;   
+            display: inline-block;  
+         
+     }  
+    }
+
+    @media screen and (min-width:1280px) and (max-width:10000px) {
+        #divs{
+            width:10%;
+             height: 800px;   
+            display: inline-block;  
+         
+     }  
+    }
+   
+    #divs{
+     
+        color: white;
+        font-size: 70px;
+        text-align: center; 
+    }
+    
+    .green{
+        background-color: green;
+        
+
+    }
+    .yellow{
+        background-color: yellow;
+        
+    }
+    .purp{
+        background-color: purple;
+      
+    }
+    .gray{
+        background-color: rgba(128, 128, 128, 0.696);
+      
+    }
+    .blue{
+        background-color: blue;
+     
+    }
+    .orange{
+        background-color: orange;
+       
+    }
+    .plum{
+        background-color: plum;
+    
+    }
+    .red{
+        background-color: red;
+     
+    }
+    .brown{
+        background-color: brown;
+     
+    }
+
+</style>
+<body>
+    <div class="num">
+        <div id="divs" CLASS="green">1</div>
+        <div id="divs" CLASS="yellow">2</div>
+        <div id="divs" CLASS="purp">3</div>
+        <div id="divs" CLASS="gray">4</div>
+        <div id="divs" CLASS="blue">5</div>
+        <div id="divs" CLASS="orange">6</div>
+        <div id="divs" CLASS="plum">7</div>
+        <div id="divs" CLASS="red">8</div>
+        <div id="divs" CLASS="brown">9</div>
+
+    </div>
+    
+</body>
+</html>
